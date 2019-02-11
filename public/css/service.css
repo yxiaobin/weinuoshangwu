@@ -1,0 +1,46 @@
+
+/*ä¸»ä½“å†…å®¹*/
+#contentBox {overflow: hidden;position: relative;}
+/*ä¾§è¾¹å¯¼èˆª*/
+#contentBox .side_nav{margin-top: 20px;height: 377px;width: 250px;overflow: hidden;border: 1px solid #00afdb;}
+#contentBox .side_nav li{overflow: hidden;height: 70px;}
+#contentBox .side_nav li a{height: 70px;line-height: 70px;display: block;font-size: 20px;color: #444444;border-bottom: 1px dashed #cbcbcb;margin:0 30px;}
+/*hoveré¢œè‰²*/
+#contentBox .side_nav .active{background-color:#00afdb;color: #FFFFFF;margin: 0;display: block;border: 0;}
+
+
+/*è”ç³»æˆ‘ä»¬*/
+#contentBox .contact_us {margin-top: 20px;height: 377px;width: 250px;overflow: hidden;border: 1px solid #00afdb;}
+#contentBox .contact_us li:first-child{overflow: hidden;height: 70px;background-color:#00afdb;margin-bottom: 10px;}
+#contentBox .contact_us li{overflow: hidden;padding: 5px;}
+#contentBox .contact_us a:first-child{height: 60px;line-height: 60px;display: block;font-size: 20px;color: #FFFFFF}
+
+/*å†…å®¹*/
+#contentBox .c_cont {overflow: hidden;}
+/*å†…å®¹æ¿å—*/
+#contentBox .c_cont .c_contBox{margin: 20px;border: 1px solid #cbcbcb;}
+#contentBox .c_cont .c_contBox .Box_img{height: 200px;margin: 20px;padding: 0;}
+#contentBox .c_cont .c_contBox .c_Box1 {margin-top: 20px;}
+#contentBox .c_cont .c_contBox .c_Box1 a{font-size: 16px;}
+#contentBox .c_cont .c_contBox .c_Box1 span{color: #cbcbcb;}
+#contentBox .c_cont .c_contBox .c_Box2{margin-top: 20px;}
+#contentBox .c_cont .c_contBox .c_Box2 p{line-height: 1.8;}
+#contentBox .c_cont .c_contBox .c_Box2 a{font-size: 14px;color: #666666;font-weight:bold;}
+#contentBox .c_cont .c_contBox .c_Box2 .Box2_button{margin-top: 10px;padding-right: 30px;}
+#contentBox .c_cont .c_contBox .c_Box2 .Box2_button a{display: block;color: #fe3f3f;border: 1px solid #fe3f3f;padding:14px 20px;border-radius: 35px;margin-top: 10px;}
+#contentBox .c_cont .c_contBox .c_Box2 .Box2_button a:hover{background-color: #fe3f3f;color: #FFFFFF;}
+
+
+/*å½“å‰ä½ç½®*/
+#contentBox .current{height: 60px;overflow: hidden;line-height: 60px;border-bottom: 1px dashed #a7a7a7;padding:0;margin-left: 35px;}
+
+/*ç§»åŠ¨ç«¯æ ·å¼*/
+@media screen and (max-width: 700px) { /*å½“å±å¹•å°ºå¯¸å°äºŽ700pxæ—¶ï¼Œåº”ç”¨ä¸‹é¢çš„CSSæ ·å¼*/
+    #contentBox .c_cont .c_contBox .c_Box2 .Box2_button {padding: 0 20px;}
+    #contentBox .c_cont .c_contBox .c_Box2 .Box2_button a{background-color: #c80000;color: #FFFFFF;margin-bottom: 10px;}
+}
+
+/*å¹³æ¿ç«¯*/
+@media (min-width: 768px) and (max-width: 1200px) { /*å½“å±å¹•å°ºå¯¸å°äºŽ1024pxæ—¶ï¼Œåº”ç”¨ä¸‹é¢çš„CSSæ ·å¼ï¼Œipadã€ipadPro*/
+
+}

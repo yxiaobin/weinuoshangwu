@@ -1,0 +1,106 @@
+
+/*å¤ç”¨æ ·å¼*/
+.pub_p {font-size: 16px;color: #666;}
+.pub_li2em li{text-indent: 2em;}
+.pub_p2em {text-indent: 2em;}
+/*å¤ç”¨è¡Œé«˜2.0*/
+.pub_line20 {font-size: 16px;color: #666;line-height: 2.0;}
+/*titleæ ·å¼*/
+.g_line18 {overflow: hidden;position: relative;line-height: 1.8;}
+.pub_title {margin:100px 0 50px 0;}
+.pub_titleImg {background: url(../images/title_bg.png)no-repeat;height: 60px;width: 300px;float: none;margin: 0 auto;z-index: 0;}
+.pub_titleCont {display: block;width: 250px;float: none;margin: 0 auto;z-index: 999;position: relative;top: -45px;background-color: #FFFFFF}
+.pub_titleCont h3{color: #444}
+.pub_titleCont p{font-size: 16px;color: #666666;margin-top: 5px;font-style:italic;}
+h3 {font-size: 22px;}
+
+
+/*è¡Œé«˜2.5æ ·å¼*/
+.txt_25 {font-size: 16px;line-height: 2.5;color: #666;}
+
+/*ç‰©æµé¡µ*/
+#logistic_cont {overflow: hidden;position: relative;}
+
+/*åŒ»ç–—å™¨æ¢°*/
+#medicine_cont {overflow: hidden;position: relative;}
+
+/*é£Ÿå“æµé€š*/
+#food_cont {overflow:hidden;position: relative;}
+
+/*å±åŒ–å“*/
+#chemical_cont {overflow: hidden;position: relative;}
+
+/*äººåŠ›èµ„æº*/
+#hr_cont {overflow: hidden;position: relative;}
+
+/*åŸºé‡‘å…¬å¸*/
+#fund_cont {overflow: hidden;position: relative;}
+
+/*é…’ç±»å…¬å¸*/
+#wine_cont {overflow: hidden;position: relative;}
+
+/*é£Ÿå“ç»è¥è®¸å¯è¯*/
+#foodtrade {overflow: hidden;position: relative;}
+#foodtrade .f_Box2{border: 1px solid #d6d6d6;height: 390px;border-radius: 10px;}
+#foodtrade .f_Box2 img{margin: 30px 0;}
+#foodtrade .f_Box2  h3{color: #444;margin: 15px 0;font-size: 16px;font-weight: bold;}
+#foodtrade .f_Box2 p{font-size: 14px;line-height: 2.0;color: #666;}
+#foodtrade  .BoxBtn1{display: block;height: 40px;width: 125px;background-color: #f36f5a;color: #FFFFFF;margin: 20px auto;line-height: 40px;font-size: 16px;border-radius: 5px;}
+#foodtrade  .BoxBtn1:hover{background-color:#f5563c;}
+
+/*é…’ç±»æ‰¹å‘è®¸å¯è¯*/
+#winetrade {overflow: hidden;position: relative;}
+#winetrade  .BoxBtn1{display: block;height: 40px;width: 125px;background-color: #f36f5a;color: #FFFFFF;margin: 20px auto;line-height: 40px;font-size: 16px;border-radius: 5px;}
+#winetrade  .BoxBtn1:hover{background-color:#f5563c;}
+
+/*ç§»åŠ¨ç«¯æ ·å¼*/
+@media screen and (max-width: 700px) { /*å½“å±å¹•å°ºå¯¸å°äºŽ700pxæ—¶ï¼Œåº”ç”¨ä¸‹é¢çš„CSSæ ·å¼*/
+    /*å¤ç”¨æ ·å¼*/
+    .m_inTitle {margin: 50px 0 20px 0;}
+    .m_pd20 {padding: 0 20px;}
+    .m_page2Box4 img {width: 100%;margin-bottom: 10px;}
+    .mt_50 {margin-top: 20px;}
+    .pub_title {margin: 70px 0 30px 0;}
+    .cl_wid {width: auto!important;}
+    .m_lp30 {padding-left: 30px;padding-right: 0;}
+    .m_mr20 {margin-top: 20px;}
+
+    /*å»ºç­‘å…¬å¸*/
+    #archi_cont img{width: 100%;}
+    #archi_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*å±åŒ–å“*/
+    #chemical_cont img{width: 100%;}
+    #chemical_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*é£Ÿå“æµé€š*/
+    #food_cont img{width: 100%;}
+    #food_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*åŸºé‡‘å…¬å¸*/
+    #fund_cont img{width: 100%;}
+    #fund_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*äººåŠ›èµ„æº*/
+    #hr_cont img{width: 100%;}
+    #hr_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*ç‰©æµé¡µ*/
+    #logistic_cont img{width: 100%;}
+    #logistic_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+    /*åŒ»ç–—å™¨æ¢°*/
+    #medicine_cont img{width: 100%;}
+    #medicine_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+    #medicine_cont h2{font-size: 18px;}
+
+    /*é…’ç±»å…¬å¸*/
+    #wine_cont img{width: 100%;}
+    #wine_cont li , p{font-size: 0.75em!important;line-height: 2.0;}
+
+}
+@media screen and (max-width: 350px) { /*å½“å±å¹•å°ºå¯¸å°äºŽ350æ—¶ï¼Œåº”ç”¨ä¸‹é¢çš„CSSæ ·å¼å°å±å¹•*/
+    /*å¤ç”¨æ ·å¼*/
+
+
+}

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/*主色调*/
+/*文字文本*/
+/*单行省略号*/
+/*多行省略号*/
+/**a标签hoverboder效果**/
+.registryDes {
+  padding: 80px 36px 40px 39px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.registryDes .serviceCourse .courseTitle {
+  font-size: 24px;
+  color: #212121;
+}
+
+.registryDes .serviceCourse .underline {
+  width: 50px;
+  background: #13c2ee;
+  height: 3px;
+  margin: 16px 0 37px;
+  border: none;
+}
+
+.registryDes .serviceCourse ul {
+  margin-right: -28px;
+}
+
+.registryDes .serviceCourse ul li {
+  display: inline-block;
+  font-size: 0;
+  margin-right: 25px;
+}
+
+.registryDes .serviceCourse ul li .courseItem {
+  width:110px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+    .registryDes .serviceCourse ul li .courseItem img {
+        display: block;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+.registryDes .serviceCourse ul li .courseItem img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.registryDes .serviceCourse ul li .courseItem span {
+        text-align: center;
+        width: 100%;
+        font-size: 15.28px;
+        color: #212121;
+        margin-top: 18px;
+}
+
+.registryDes .serviceCourse ul li .courseItem span i {
+  color: #13c2ee;
+}
+
+.registryDes .serviceCourse ul li .arrows {
+  display: inline-block;
+  vertical-align: super;
+  margin-left: 31px;
+}
+
+.registryDes .prepareMaterials {
+  margin-top: 97px;
+}
+
+.registryDes .prepareMaterials .materialsImg {
+  display: inline-block;
+  width: 505px;
+  height: 323px;
+  margin-right: 170px;
+}
+
+.registryDes .prepareMaterials .materialsImg.getMaterials {
+  width: 555px;
+  height: 303px;
+  margin-right: 140px;
+}
+
+.registryDes .prepareMaterials .materialsTxt {
+  float: right;
+  margin-top: 40px;
+  width: 420px;
+}
+
+.registryDes .prepareMaterials .materialsTxt ul li i {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 50%;
+  text-align: center;
+  background: #13c2ee;
+  color: white;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
+
+.registryDes .prepareMaterials .materialsTxt ul li span {
+  font-size: 15px;
+  color: #212121;
+  margin-bottom: 22px;
+  max-width: 388px;
+  vertical-align: text-top;
+  line-height: 23px;
+}
+
+.registryDes .prepareMaterials .materialsTxt ul .getHint {
+  font-size: 12px;
+  color: #757575;
+}
+
+.registryDes .whatToDo {
+  margin-top: 107px;
+}
+
+.registryDes .whatToDo .whatContent h2 {
+  font-size: 28px;
+  color: #212121;
+  font-weight: 600;
+}
+
+.registryDes .whatToDo .whatContent span {
+  font-size: 15px;
+  color: #212121;
+  max-width: 188px;
+  line-height: 29px;
+}
+
+.registryDes .whatToDo .whatContent .left {
+  width: 260px;
+  height: 396px;
+  position: relative;
+  display: inline-block;
+}
+
+.registryDes .whatToDo .whatContent .left .leftTxt {
+  position: absolute;
+  top: 55px;
+  left: 35px;
+}
+
+.registryDes .whatToDo .whatContent .left .leftTxt h2 {
+  margin-bottom: 34px;
+}
+
+.registryDes .whatToDo .whatContent .right {
+  float: right;
+  width: 863px;
+}
+
+.registryDes .whatToDo .whatContent .right ul {
+  font-size: 0;
+}
+
+.registryDes .whatToDo .whatContent .right ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.registryDes .whatToDo .whatContent .right ul li .rightTxt {
+  position: absolute;
+  top: 45px;
+  left: 29px;
+}
+
+.registryDes .whatToDo .whatContent .right ul li .rightTxt h2 {
+  margin-bottom: 24px;
+}
+
+.whatContent .left,.whatContent .right li {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+    .whatContent .left:hover,.whatContent .right li:hover {
+        -webkit-transform: translate(0, -2px);
+        transform: translate(0, -2px);
+        -webkit-box-shadow: 0px 2px 10px -2px #776969;
+        box-shadow: 0px 2px 10px -2px #776969;
+    }

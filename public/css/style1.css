@@ -1,0 +1,202 @@
+.consult {
+    width: 100px;
+    position: fixed;
+    top: 170px;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.consult .tit {
+    background-color: #e13e38;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+}
+
+.consult .tit::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    z-index: 1;
+    background: url("/assets/img/consult_tit_bottom.png") no-repeat center;
+}
+
+.consult .tit .img {
+    margin: 0 auto;
+    width: 24px;
+    height: 17px;
+    padding: 12px 0 7px;
+}
+
+.consult .tit .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.consult .tit h3 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.consult li {
+    height: 60px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #757575;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.consult li.on {
+    color: #e13e38;
+    -webkit-transform: translate(2px, 0);
+    transform: translate(2px, 0);
+}
+
+/*.consult li:hover {
+    color: #e13e38;
+    -webkit-transform: translate(3px, 0);
+    transform: translate(3px, 0);
+}*/
+
+.consult li~li {
+    border-top: 1px solid #ededed;
+}
+
+.consult li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.consult li a img {
+    vertical-align: middle;
+}
+
+.consult li a span {
+    padding-right: 5px;
+}
+
+/*第六版块*/
+
+.center7 {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto
+}
+
+.center7 h3 {
+    width: 260px;
+    overflow: hidden;
+    line-height: 34px;
+    font-size: 34px;
+    text-align: center;
+    margin: 50px auto 30px;
+    color: #363637;
+}
+
+.center7_list1 li {
+    width: 218px;
+    height: 120px;
+    border: solid 1px #e7e7e7;
+    float: left;
+    margin: 0px 25px 40px 0px;
+    position: relative
+}
+
+.center7_list1 li.last {
+    margin-right: 0px;
+}
+
+.center7_list1 li img {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: -13px;
+}
+
+.center7_list1 li span {
+    width: 100%;
+    display: block;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.center7_list1 li a {
+    width: 118px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border: solid 1px #495a74;
+    font-size: 14px;
+    color: #495a74;
+    margin: 0 auto
+}
+
+.center7_list1 li a.ccc {
+    color: #ffffff;
+    background: #75d2e9;
+    border: solid 1px #495a7446;
+}
+
+/*标题*/
+
+.banner1 {
+    width: 1200px;
+    height: 144px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 230px;
+    font-size: 65px;
+    color: white;
+    /* background:url(../images/banner_01.png) no-repeat top center;*/
+}
+
+.banner2 {
+    width: 1200px;
+    height: 141px;
+    overflow: hidden;
+    margin-top: -35px;
+    margin-left: 230px;
+    font-size: 23px;
+    color: white;
+    /* background:url(../images/banner_02.png) no-repeat top center;*/
+}
+
+.banner3 {
+    width: 1200px;
+    height: 141px;
+    overflow: hidden;
+    margin-top: -140px;
+    margin-left: 430px;
+    font-size: 23px;
+    color: white;
+}
+
+.banner4 {
+    width: 1200px;
+    height: 141px;
+    overflow: hidden;
+    margin-top: -90px;
+    margin-left: 230px;
+    font-size: 23px;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background: url(../images/banner-01.jpg) no-repeat top center
+}

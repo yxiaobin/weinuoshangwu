@@ -1,0 +1,71 @@
+/*尾部导航条*/
+
+.footer-banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  background-color: #2B2B2B;
+  z-index: 999;
+  width: 100%;
+}
+
+.footer-banner a {
+  position: relative;
+}
+
+.footer-banner ul {
+  margin-left: 5%;
+}
+
+.footer-banner ul li {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-banner ul li #footer-img-01 {
+  background: url(../images/footer-banner-white-01.png) no-repeat;
+  background-size: contain;
+}
+
+.footer-banner ul li #footer-img-02 {
+  background: url(../images/footer-banner-white-02.png) no-repeat;
+  background-size: contain;
+}
+
+.footer-banner ul li #footer-img-03 {
+  background: url(../images/footer-banner-white-03.png) no-repeat;
+  background-size: contain;
+}
+
+.footer-banner ul li #footer-img-04 {
+  background: url(../images/footer-banner-white-04.png) no-repeat;
+  background-size: contain;
+}
+
+.footer-banner ul li #footer-img-05 {
+  background: rgb(228, 197, 20) url(../Public/Mobile/img/red/index/tel.gif) no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin-left: 2px;
+  margin-top: -16px;
+}
+
+.footer-banner ul li .footer-img {
+  margin-top: 10%;
+  margin-left: 27%;
+  width: 0.5rem;
+  height: 0.44rem;
+}
+
+.footer-banner ul li .h6 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: block;
+  font-size: 0.25rem;
+  color: #ffffff;
+  margin-left: -20%;
+}

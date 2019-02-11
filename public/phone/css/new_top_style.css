@@ -1,0 +1,52 @@
+/*头部*/
+.top_space{
+    width: 7.5rem;
+    height: auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 0.01rem solid #dddddd;
+}
+.top_space .back{
+    background: url("../img/back.png") no-repeat;
+    background-size: 0.19rem 0.35rem;
+    width: 0.19rem;
+    height: 0.35rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.top_space .title{
+    height: 0.87rem;
+    width: 5rem;
+    font-size: 0.32rem;
+    line-height: 0.87rem;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.top_space .reset{
+    position: absolute;
+    height: 0.87rem;
+    right: 0.3rem;
+    top: 0;
+    font-size: 0.26rem;
+    color: #26b8ef;
+    line-height: 0.87rem;
+}
+.top_space .img_1{
+    position: absolute;
+    width: 0.36rem;
+    height: 0.36rem;
+    right:0.3rem;
+    top:0.24rem;
+}
+.top_space .img_2{
+    position: absolute;
+    width: 0.3rem;
+    height: 0.36rem;
+    top:0.24rem;
+    right:1.26rem;
+}

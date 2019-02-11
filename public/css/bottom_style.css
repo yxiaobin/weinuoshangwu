@@ -1,0 +1,35 @@
+/*底部*/
+.bottom_space{
+    width: 7.5rem;
+    height: auto;
+    padding: 0.8rem 0 0.4rem;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.bottom_space .type{
+    padding: 0 1.75rem 0;
+    width: 4rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bottom_space .type span{
+    display: block;
+    font-size: 0.24rem;
+    color: #999999;
+}
+.bottom_space .type .select{
+    color: #666666;
+}
+.bottom_space .type i{
+    display: block;
+    font-size: 0.24rem;
+    margin: 0 0.3rem;
+    color: #999999;
+}
+.bottom_space .Copyright_information{
+    padding: 0.2rem 0;
+}
+.bottom_space .Copyright_information p{
+    font-size: 0.24rem;
+    text-align: center;
+}
