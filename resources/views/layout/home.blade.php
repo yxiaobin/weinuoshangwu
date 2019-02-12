@@ -197,6 +197,7 @@ $webkey = $webkey->first();
             <div class="footer-bq clearfix">
                     <span class="pl10">
                         <p style="display: inline-block">{{$webkey->allright}}</p>
+                  		备案号：<a href="http://www.miitbeian.gov.cn/" style="width: auto;float: initial;margin: 0;background: none">沪ICP备13046538号-2</a>
                           技术支持：
                         <a href="https://www.mengyakeji.com/" style="width: auto;float: initial;margin: 0;background: none">萌芽科技</a>
                     </span>
