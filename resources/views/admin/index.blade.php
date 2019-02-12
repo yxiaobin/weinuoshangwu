@@ -17,7 +17,7 @@
 @section('content')
     <div class="row" style="margin: 10px -15px 30px -15px">
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <a class="card card-banner card-blue-light" href="http://wn.budgroup.cn">
+            <a class="card card-banner card-blue-light" href="http://www.winnerchina.biz/">
                 <div class="card-body">
                     <i class="icon fa fa-group fa-4x"></i>
                     <div class="content">
@@ -94,7 +94,7 @@
                             <label>本站</label><span>巍诺网站后台管理系统</span>
                         </li>
                         <li class="list-group-item">
-                            <label>网址</label><span>wn.budgroup.cn</span>
+                            <label>网址</label><span>www.winnerchina.biz</span>
                         </li>
                         <li class="list-group-item">
                             <label>版本</label><span>2.0.1</span>
