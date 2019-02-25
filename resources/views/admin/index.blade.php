@@ -68,10 +68,10 @@
                             <label>运行环境</label><span>{{$_SERVER['SERVER_SOFTWARE']}}</span>
                         </li>
                         <li class="list-group-item">
-                            <label>域名/IP</label><span>{{$_SERVER['SERVER_NAME']}} [ {{$_SERVER['SERVER_ADDR']}} ]</span>
+                            {{--<label>域名/IP</label><span>{{$_SERVER['SERVER_NAME']}} [ {{$_SERVER['SERVER_ADDR']}} ]</span>--}}
                         </li>
                         <li class="list-group-item">
-                            <label>Host</label><span>{{$_SERVER['SERVER_ADDR']}}</span>
+                            {{--<label>Host</label><span>{{$_SERVER['SERVER_ADDR']}}</span>--}}
                         </li>
                     </ul>
                 </div>

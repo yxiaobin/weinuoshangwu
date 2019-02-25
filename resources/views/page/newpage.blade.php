@@ -156,7 +156,7 @@
             $("#linkname").bind('input porpertychange',function(){
                 var  x = $("#linkname").val();
                 console.log(x);
-                var y = "http://wn.budgroup.cn/" ;
+                var y = "http://www.winnerchina.biz/" ;
                 y = y+x;
                 $("#link").val(y);
             });
