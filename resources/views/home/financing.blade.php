@@ -971,12 +971,19 @@
         <div class="footer" style="background-color:#0f8baa ">
             <div class="f_wrap">
                 <ul class="clearfix">
-                    <li style="margin-right: 134px;margin-left: 110px;">
+                    <div style="display: inline-block;margin-left: 140px;    vertical-align: top;
+    padding-top: 20px;">
                         <span class="mobile">杨经理：18017387386  021-58692203*898</span>
-                    </li>
-                    <li style="margin-right: 205px;">
-                        <a style="color: #fff;" target="_blank" href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D" class="online">联系在线客服</a>
-                    </li>
+                    </div>
+                    <div style="display: inline-block;margin-left: 50px;margin-right: 50px">
+                        <img src="{{asset('images/financing.jpg')}}" alt="" style="width: 100px;height: 100px;display: inline-block">
+                    </div>
+                    <div style="display: inline-block;vertical-align: top;
+    padding-top: 20px;">
+                        <li style="display: inline-block">
+                            <a style="color: #fff;" target="_blank" href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D" class="online">联系在线客服</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
