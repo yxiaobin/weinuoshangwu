@@ -18,8 +18,8 @@
                     font-family: "Helvetica Neue", Helvetica, "STheiti", "Microsoft Yahei", "SimHei", Arial, Tahoma, sans-serif, serif !important;
                 }
                 .header {
-                    /*height: 70px;*/
-                    height: 55px!important;
+                    height: 70px;
+                    /*height: 55px!important;*/
                     line-height: 0px!important;
                 }
             </style>
