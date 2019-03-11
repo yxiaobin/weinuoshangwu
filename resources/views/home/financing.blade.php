@@ -973,7 +973,7 @@
                 <ul class="clearfix">
                     <div style="display: inline-block;margin-left: 140px;    vertical-align: top;
     padding-top: 20px;">
-                        <span class="mobile">杨经理：18017387386  021-58692203*898</span>
+                        <span class="mobile">杨经理：18017387386  18017207233</span>
                     </div>
                     <div style="display: inline-block;margin-left: 50px;margin-right: 50px">
                         <img src="{{asset('images/financing.jpg')}}" alt="" style="width: 100px;height: 100px;display: inline-block">
