@@ -700,7 +700,7 @@
 
                     <div style="display: inline-block;margin-left: 140px;    vertical-align: top;
     padding-top: 20px;">
-                        <span class="mobile">曹经理：18017387477  021-58692203*890</span>
+                        <span class="mobile">曹经理：18017387477  18001751562</span>
                     </div>
                     <div style="display: inline-block;margin-left: 50px;margin-right: 50px">
                         <img src="{{asset('images/factory.jpg')}}" alt="" style="width: 100px;height: 100px;display: inline-block">
