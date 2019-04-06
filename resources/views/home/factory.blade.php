@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="">
-    <meta name="description" content="巍诺商务股份有限公司商业保理公司注册,10年服务经验,为您解析商业保理公司注册需要注意什么？注册商业保理公司流程,等相关问题.公司宝,让企业没有难办的事!咨询热线:4006-798-999">
+    <meta name="description"
+          content="巍诺商务股份有限公司商业保理公司注册,10年服务经验,为您解析商业保理公司注册需要注意什么？注册商业保理公司流程,等相关问题.公司宝,让企业没有难办的事!咨询热线:4006-798-999">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.3, maximum-scale=1.0, minimum-scale=0.3">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes, initial-scale=0.3, maximum-scale=1.0, minimum-scale=0.3">
     <meta name="renderer" content="webkit">
     <meta name="applicable-device" content="pc">
     <title>巍诺商务股份有限公司商业保理公司注册,免费公司(工商)注册!</title>
@@ -27,24 +29,26 @@
         body {
             font-family: "Helvetica Neue", Helvetica, "STheiti", "Microsoft Yahei", "SimHei", Arial, Tahoma, sans-serif, serif !important;
         }
-        .footer{
+
+        .footer {
             width: 100%;
             background: #242830;
-            padding:16px 0;
+            padding: 16px 0;
             position: fixed;
             bottom: 0;
             left: 0;
             z-index: 9999;
         }
 
-        .f_wrap{
+        .f_wrap {
             width: 1132px;
             margin: 0 auto;
         }
 
-        .f_wrap li{
+        .f_wrap li {
             float: left;
         }
+
         .online,
         .mobile {
             display: block;
@@ -57,9 +61,11 @@
         .online {
             background: url('{{asset('images/listen.png')}}') left center no-repeat;
         }
+
         .mobile {
             background: url('{{asset('images/dh.png')}}') left center no-repeat;
         }
+
         .footer_space .index-footer {
             margin-bottom: 55px;
         }
@@ -85,10 +91,12 @@
                         <ul class="mb20">
                             <li class="clearfix login-name">
                                 <i class="pull-left"></i>
-                                <input type="text" placeholder="用户名/手机号/邮箱" autocomplete="off" name="username" class="pull-left pl15"></li>
+                                <input type="text" placeholder="用户名/手机号/邮箱" autocomplete="off" name="username"
+                                       class="pull-left pl15"></li>
                             <li class="clearfix login-password">
                                 <i class="pull-left"></i>
-                                <input type="password" placeholder="密码" autocomplete="off" name="password" class="pull-left pl15"></li>
+                                <input type="password" placeholder="密码" autocomplete="off" name="password"
+                                       class="pull-left pl15"></li>
                         </ul>
                         <div class="forget clearfix pb20">
                             <label class="pull-left">
@@ -98,12 +106,14 @@
                         <input type="submit" name="dosubmit" value="登录" class="btn login-btn mb20"></form>
                     <div class="other clearfix mb30">
                         <span class="pull-left">合作网站账号登录：</span>
-                        <a href="https://api.weibo.com/oauth2/authorize?response_type=code&amp;client_id=3680441826&amp;redirect_uri=http%3a%2f%2fcrm.gongsibao.com%2faccount%2fOAuthLogin%3fIsBack%3dYes&amp;state=SinaWeiBo" class="pull-left">
+                        <a href="https://api.weibo.com/oauth2/authorize?response_type=code&amp;client_id=3680441826&amp;redirect_uri=http%3a%2f%2fcrm.gongsibao.com%2faccount%2fOAuthLogin%3fIsBack%3dYes&amp;state=SinaWeiBo"
+                           class="pull-left">
                             <i class="pull-left other-wb"></i>
                         </a>
                         <!--a.pull-left(href='https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101175409&redirect_uri=http%3a%2f%2fcrm.gongsibao.com%2faccount%2fOAuthLogin%3fIsBack%3dYes&state=QQ')-->
                         <!-- i.pull-left.other-qq-->
-                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx5fdb66e2675948b0&amp;redirect_uri=http%3a%2f%2fcrm.gongsibao.com%2faccount%2fOAuthLogin%3fIsBack%3dYes&amp;response_type=code&amp;scope=snsapi_login&amp;state=WeiXin" class="pull-left">
+                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx5fdb66e2675948b0&amp;redirect_uri=http%3a%2f%2fcrm.gongsibao.com%2faccount%2fOAuthLogin%3fIsBack%3dYes&amp;response_type=code&amp;scope=snsapi_login&amp;state=WeiXin"
+                           class="pull-left">
                             <i class="pull-left other-wx"></i>
                         </a>
                     </div>
@@ -114,21 +124,27 @@
                             <li class="clearfix mb20">
                                 <input type="text" placeholder="手机号" name="mobile" class="pull-left mobile-num"></li>
                             <li class="clearfix mb20">
-                                <input type="text" placeholder="图片验证码" name="mobile-img-code" class="pull-left img-code">
+                                <input type="text" placeholder="图片验证码" name="mobile-img-code"
+                                       class="pull-left img-code">
                                 <span class="pull-right code-img">
                                             <img id="reloadcode" src="" alt="验证码"></span>
                             </li>
                             <li class="clearfix mb20">
-                                <input type="text" placeholder="短信验证码" name="mobile-code" class="pull-left message-code">
-                                <span id="registGetPhoneCode" v="1" class="pull-right code-btn btn-gray">获取验证码</span></li>
+                                <input type="text" placeholder="短信验证码" name="mobile-code"
+                                       class="pull-left message-code">
+                                <span id="registGetPhoneCode" v="1" class="pull-right code-btn btn-gray">获取验证码</span>
+                            </li>
                             <li class="clearfix mb20">
-                                <input type="password" placeholder="密码" name="password" class="pull-left register-password"></li>
+                                <input type="password" placeholder="密码" name="password"
+                                       class="pull-left register-password"></li>
                             <li class="clearfix mb20">
-                                <input type="password" placeholder="确认密码" name="password1" class="pull-left confirm-password"></li>
+                                <input type="password" placeholder="确认密码" name="password1"
+                                       class="pull-left confirm-password"></li>
                         </ul>
                         <div class="forget clearfix pb20">
                             <label class="pull-left">
-                                <input type="checkbox" checked="checked" name="protocol" class="pull-left">我已阅读并同意</label>
+                                <input type="checkbox" checked="checked" name="protocol"
+                                       class="pull-left">我已阅读并同意</label>
                             <a href="/duty/" class="pull-left">《巍诺商务股份有限公司服务协议》</a></div>
                         <input type="hidden" name="dosubmit" value="1">
                         <input type="submit" value="注册" class="btn register-btn mb30"></form>
@@ -221,16 +237,21 @@
     <div class="banner">
         <div class="banner1">商业保理公司注册</div>
         <div class="banner2">
-            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">十年办理经验</div>
+            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">十年办理经验
+        </div>
         <div class="banner3" style="margin-left: 449px;">
-            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">政策全掌握</div>
+            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">政策全掌握
+        </div>
         <div class="banner4">
-            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">一站式办理更方便</div>
+            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">一站式办理更方便
+        </div>
         <div class="banner3" style="margin-left: 449px;">
-        <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">千余家客户案例</div></div>
+            <img src="{{asset("images/dian.png")}}" style="width: 20px;height: 20px;display: inline-block;">千余家客户案例
+        </div>
+    </div>
 </div>
-    <!--<a href="javascript:;" class="js-openchat">在线咨询</a>-->
-    <!--<img src="images/banner-00.jpg" style="position: absolute ;width: 100%;height: 506px">--></div>
+<!--<a href="javascript:;" class="js-openchat">在线咨询</a>-->
+<!--<img src="images/banner-00.jpg" style="position: absolute ;width: 100%;height: 506px">--></div>
 </div>
 <div class="con-tit">
     <div class="con bg-0">
@@ -276,7 +297,7 @@
         <ul class="clearfix">
             <li>
                 <strong>01</strong>
-                <p>企业投资者应具有经营商业保理业务或相关行业的经历。</p>
+                <p>企业投资者应经营年限达1年以上且投资过金融行业，如银行、小额贷款公司、融资 性担保公司等，具有相关行业经验。</p>
             </li>
             <li>
                 <strong>02</strong>
@@ -296,12 +317,12 @@
             </li>
             <li>
                 <strong>06</strong>
-                <p>兼营商业保理业务的融资租赁公司除满足上述条件外，还需符合融资租赁公司设立的规定。</p>
+                <p>如融资租赁公司计划开展商业保理业务，则需向当地注册机关提出增加关于开展与主营业务有关的商业保理业务的经营范围。</p>
             </li>
         </ul>
         {{--<div class="consult">--}}
-            {{--<p>具体条件细则，咨询公司宝帮您解答</p>--}}
-            {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
+        {{--<p>具体条件细则，咨询公司宝帮您解答</p>--}}
+        {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
     </div>
 </div>
 <div class="con-tit">
@@ -312,20 +333,22 @@
     <div class="le">
         <h3>内资商业保理公司设立程序</h3>
         <div class="txt">
-            <p>新设从事商业保理业务的内资保理公司、已设立的内资融资租赁公司申请兼营与主营业务有关的商业保理业务的，向自贸区工商分局提出申请，自贸区工商分局征询自贸区管委会意见后办理注册登记手续。</p>
+            <p>
+                新设从事商业保理业务的内资保理公司、已设立的外资融资租赁公司申请兼营与主营业务有关的商业保理业务的，向拟注册地或注册地提出申请，通过联合会审后，办理新设内资保理公司的注册登记手续以及外资融资租赁公司的变更登记手续。</p>
         </div>
         <h3>能做什么？</h3>
         <div class="txt">
-            <p>(1) 新设从事商业保理业务的外资保理公司，先向自贸区管委会提出申请，在取得自贸区管委会出具的备案证明后，到自贸区工商分局办理注册登记手续。</p>
-            <p>(2) 新设及已设外资融资租赁公司申请兼营与主营业务有关的商业保理业务的，向自贸区管委会提出申请，由自贸区管委会出具批准文件，企业凭批准文件及批准证书向工商局办理注册登记手续。</p>
+            <p>(1)新设从事商业保理业务的内资保理公司，先向注册登记地的市场监督管理局提出申请，通过联合会审后，办理开业登记。</p>
+            <p>(2)已设外资融资租赁公司申请兼营与主营业务有关的商业保理业务的，向注册地所在商务委员会提出申请，通过联合会审后，由商务委员会出具变更备案回执，
+                企业凭该变更备案回执以及其他需要提供的变更文件向注册地市场监督管理局办理变更登记手续。</p>
         </div>
     </div>
     <div class="ri">
         <img src="{{asset("images/pic-1.png")}}"></div>
 </div>
 {{--<div class="consult">--}}
-    {{--<p>详细程序咨询公司宝帮您解答</p>--}}
-    {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
+{{--<p>详细程序咨询公司宝帮您解答</p>--}}
+{{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
 <div class="con-prepare">
     <div class="con-tit">
         <div class="con bg-3">
@@ -336,20 +359,20 @@
             <li>
                 <div class="con">
                     <i class="i0"></i>
-                    <p>商业保理公司注册申请书</p>
+                    <p>商业保理公司出资人情况介绍</p>
                 </div>
             </li>
             <li>
                 <div class="con">
                     <i class="i1"></i>
-                    <p>投资各方签署的可行性研究报告</p>
+                    <p>投资各方签署的申请报告</p>
                 </div>
             </li>
             <li>
                 <div class="con">
                     <i class="i2"></i>
-                    <p>公司章程（中外合资企业、
-                        <br>中外合作企业还需提供合同）</p></div>
+                    <p>公司章程</p>
+                </div>
             </li>
             <li>
                 <div class="con">
@@ -386,8 +409,8 @@
         </ul>
     </div>
     {{--<div class="consult">--}}
-        {{--<p>太过繁杂？咨询公司宝帮您办理</p>--}}
-        {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
+    {{--<p>太过繁杂？咨询公司宝帮您办理</p>--}}
+    {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
 </div>
 <div class="con-tit">
     <div class="con bg-4">
@@ -405,7 +428,7 @@
                     <i class="i0"></i>
                 </div>
                 <h3>都属于一个主管部门</h3>
-                <p>融资租赁和商业保理都属于商务部管辖。</p>
+                <p>融资租赁和商业保理都属于中国银行保险监督管理委员会管辖。</p>
             </li>
             <li>
                 <div class="tit">
@@ -494,7 +517,8 @@
                 <div class="con">
                     <i class="i1"></i>
                     <h3>商业保理可以为融资租赁提供贷后管理</h3>
-                    <p>融资租赁的信用风险主要是承租人要按时支付租金和利息，那么承租人作为一家企业主要的支付租金和利息等的来源就是收入，如果融资租赁对承租人进行融资租赁，用商业保理公司受让承租人的应收账款，不仅可以监督承租人的现金流，还可以根据合同约定按时把承租人的客户支付给承租人收到的应收账款用于支付租金和收入等，进行贷后管理。</p>
+                    <p>
+                        融资租赁的信用风险主要是承租人要按时支付租金和利息，那么承租人作为一家企业主要的支付租金和利息等的来源就是收入，如果融资租赁对承租人进行融资租赁，用商业保理公司受让承租人的应收账款，不仅可以监督承租人的现金流，还可以根据合同约定按时把承租人的客户支付给承租人收到的应收账款用于支付租金和收入等，进行贷后管理。</p>
                 </div>
             </li>
             <li>
@@ -507,61 +531,61 @@
         </ul>
     </div>
     {{--<div class="consult">--}}
-        {{--<p>综合办理商业保理、融资租赁公司，咨询公司宝</p>--}}
-        {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
-{{--</div>--}}
-<div class="con-secure">
-    <div class="con-tit">
-        <div class="con bg-5">
-            <h2>公司宝服务保障</h2></div>
+    {{--<p>综合办理商业保理、融资租赁公司，咨询公司宝</p>--}}
+    {{--<a href="javascript:;" class="js-openchat">立即咨询</a></div>--}}
+    {{--</div>--}}
+    <div class="con-secure">
+        <div class="con-tit">
+            <div class="con bg-5">
+                <h2>公司宝服务保障</h2></div>
+        </div>
+        <div class="secure con-warp">
+            <ul class="clearfix">
+                <li>
+                    <div class="con">
+                        <i class="i0"></i>
+                        <h3>经验丰富</h3>
+                        <p>10年经验为您保驾护航</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <i class="i1"></i>
+                        <h3>一站式服务</h3>
+                        <p>各个环节保障服务顺畅</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <i class="i2"></i>
+                        <h3>一对一高效服务</h3>
+                        <p>专业对接人员,帮你节省不必要环节</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <i class="i3"></i>
+                        <h3>信息保密</h3>
+                        <p>自有服务器保障客户数据安全
+                            <br>专人保障客户资料免遭外泄</p></div>
+                </li>
+                <li>
+                    <div class="con">
+                        <i class="i4"></i>
+                        <h3>专业品质</h3>
+                        <p>服务均由3年以上资深人士操作保障品质</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="con">
+                        <i class="i5"></i>
+                        <h3>全程服务</h3>
+                        <p>售前咨询，关键环节100%提醒</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="secure con-warp">
-        <ul class="clearfix">
-            <li>
-                <div class="con">
-                    <i class="i0"></i>
-                    <h3>经验丰富</h3>
-                    <p>10年经验为您保驾护航</p>
-                </div>
-            </li>
-            <li>
-                <div class="con">
-                    <i class="i1"></i>
-                    <h3>一站式服务</h3>
-                    <p>各个环节保障服务顺畅</p>
-                </div>
-            </li>
-            <li>
-                <div class="con">
-                    <i class="i2"></i>
-                    <h3>一对一高效服务</h3>
-                    <p>专业对接人员,帮你节省不必要环节</p>
-                </div>
-            </li>
-            <li>
-                <div class="con">
-                    <i class="i3"></i>
-                    <h3>信息保密</h3>
-                    <p>自有服务器保障客户数据安全
-                        <br>专人保障客户资料免遭外泄</p></div>
-            </li>
-            <li>
-                <div class="con">
-                    <i class="i4"></i>
-                    <h3>专业品质</h3>
-                    <p>服务均由3年以上资深人士操作保障品质</p>
-                </div>
-            </li>
-            <li>
-                <div class="con">
-                    <i class="i5"></i>
-                    <h3>全程服务</h3>
-                    <p>售前咨询，关键环节100%提醒</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
 
     <div class="center7">
         <h3>
@@ -570,38 +594,43 @@
         </h3>
         <ul class="center7_list1">
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("/uploads/images/7yV2sqgmEuDxhg044IU1P64Z7wJTqGZoytxh7qn6.jpeg")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("/uploads/images/7yV2sqgmEuDxhg044IU1P64Z7wJTqGZoytxh7qn6.jpeg")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">商业保理公司注册</span>
                 <a href="http://wn.budgroup.cn/factory" class="js-openchat">详情点击</a>
             </li>
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("/uploads/images/GCfY7x49cQdoPWDUE2kHNgOERFeSS56sFwxClERA.png")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("/uploads/images/GCfY7x49cQdoPWDUE2kHNgOERFeSS56sFwxClERA.png")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">融资租赁公司注册</span>
                 <a href=" http://wn.budgroup.cn/financing">详情点击</a>
             </li>
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("/uploads/images/U4g7u3SHVLNa5mbyKXsHVQnDjsf5gPWZK9f4LtVz.png")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("/uploads/images/U4g7u3SHVLNa5mbyKXsHVQnDjsf5gPWZK9f4LtVz.png")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">私募基金公司注册</span>
                 <a href="http://wn.budgroup.cn/private">详情点击</a>
             </li>
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("/uploads/images/1zijSjIpVbxuprh49tje6O7UPuFcba6o1KUl0a2Y.png")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("/uploads/images/1zijSjIpVbxuprh49tje6O7UPuFcba6o1KUl0a2Y.png")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">境外投资备案</span>
                 <a href="http://wn.budgroup.cn/investment" class="js-openchat">详情点击</a>
             </li>
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("uploads/images/koeJOlUcFmvTvWRhBFufav2fTfLYyrYy17FlBkVY.png")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("uploads/images/koeJOlUcFmvTvWRhBFufav2fTfLYyrYy17FlBkVY.png")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">出口退税</span>
                 <a href="http://wn.budgroup.cn/ckts" class="js-openchat">详情点击</a>
             </li>
             <li style="border:none;width:auto;height:auto">
-                <img src="{{asset("uploads/images/LKys4LUArNo7Q4eIk3IUI5biLhGOaeaxuNJ13XIL.png")}}" style="width:175px;height:100px;position: initial;">
+                <img src="{{asset("uploads/images/LKys4LUArNo7Q4eIk3IUI5biLhGOaeaxuNJ13XIL.png")}}"
+                     style="width:175px;height:100px;position: initial;">
                 <span style="margin-top:0px">注销公司</span>
                 <a href="http://wn.budgroup.cn/gongsizhuxiao" class="js-openchat">详情点击</a>
             </li>
         </ul>
     </div>
-
 
 
 @php
@@ -613,7 +642,7 @@
     }
 @endphp
 
-        <!-- 页脚 -->
+<!-- 页脚 -->
     <div class="footer_space">
         <div class="content pb30">
             <div class="footer-nav pt30 clearfix">
@@ -637,21 +666,31 @@
                 </ul>
                 <div class="col-xs-5">
                     <div class="contact-way pull-right">
-                        <div class="clearfix pb15"><i class="fl mr10 c-icon1"></i><span class="fl italic" style="padding-bottom: 5px;">客服电话</span><em class="fl">400-628-2203</em></div>
-                        <div class="clearfix pb15"><i class="fl mr15 c-icon4"></i><span class="fl italic" style="padding-bottom: 5px;">总经理邮箱</span><em class="fl">tomzhong@winnerchina.biz</em></div>
-                        <div class="clearfix pb15 btm-zixun js-openchat2"><i class="fl mr10 c-icon2"></i><span class="fl italic" style="padding-bottom: 5px;">投诉建议</span><em class="fl">服务时段 8:45-5:15</em></div>
-                        <div class="clearfix pb10"><i class="fl mr10 c-icon3"></i><span class="fl italic" style="padding-bottom: 5px;">商务合作</span><em class="fl">bensonzhong@winnerchina.biz</em></div>
+                        <div class="clearfix pb15"><i class="fl mr10 c-icon1"></i><span class="fl italic"
+                                                                                        style="padding-bottom: 5px;">客服电话</span><em
+                                    class="fl">400-628-2203</em></div>
+                        <div class="clearfix pb15"><i class="fl mr15 c-icon4"></i><span class="fl italic"
+                                                                                        style="padding-bottom: 5px;">总经理邮箱</span><em
+                                    class="fl">tomzhong@winnerchina.biz</em></div>
+                        <div class="clearfix pb15 btm-zixun js-openchat2"><i class="fl mr10 c-icon2"></i><span
+                                    class="fl italic" style="padding-bottom: 5px;">投诉建议</span><em class="fl">服务时段
+                                8:45-5:15</em></div>
+                        <div class="clearfix pb10"><i class="fl mr10 c-icon3"></i><span class="fl italic"
+                                                                                        style="padding-bottom: 5px;">商务合作</span><em
+                                    class="fl">bensonzhong@winnerchina.biz</em></div>
                     </div>
                     <div class="" style="margin-left: 0px;">
                         <span class="fl" style="text-align: center;margin-right: 10px;">
                         <span>关注服务号</span>
-                        <div class="codes"><img src="{{asset("uploads/$webkey->fuwu")}}" style="height: 121px;width: 121px;"></div>
+                        <div class="codes"><img src="{{asset("uploads/$webkey->fuwu")}}"
+                                                style="height: 121px;width: 121px;"></div>
                         </span>
                     </div>
                     <div class="" style="margin-left: 0px">
-                       <span class="f1" >
+                       <span class="f1">
                         <span style="padding-left: 26px;">关注订阅号</span>
-                        <div class="codes"><img src="{{asset("uploads/$webkey->dingyue")}}" style="height: 121px;width: 121px;"></div>
+                        <div class="codes"><img src="{{asset("uploads/$webkey->dingyue")}}"
+                                                style="height: 121px;width: 121px;"></div>
                         </span>
                     </div>
 
@@ -673,11 +712,12 @@
                         <a style="font-weight:700">友情链接</a>
                     </h5>
                     @php
-                    $yqljs = \App\Friend::where('status','=','1')->get();
+                        $yqljs = \App\Friend::where('status','=','1')->get();
                     @endphp
                     <p class="clearfix">
                         @foreach($yqljs as $p)
-                            <a href="{{$p->link}}" rel="nofollow" title="" target="_blank" class="fl pr30">{{$p->name}}</a>
+                            <a href="{{$p->link}}" rel="nofollow" title="" target="_blank"
+                               class="fl pr30">{{$p->name}}</a>
                         @endforeach
                     </p>
                 </div>
@@ -685,7 +725,8 @@
                     <span class="pl10">
                         <p style="display: inline-block">{{$webkey->allright}}</p>
                           技术支持：
-                        <a href="https://www.mengyakeji.com/" style="width: auto;float: initial;margin: 0;background: none">萌芽科技</a>
+                        <a href="https://www.mengyakeji.com/"
+                           style="width: auto;float: initial;margin: 0;background: none">萌芽科技</a>
                     </span>
 
                 </div>
@@ -700,15 +741,18 @@
 
                     <div style="display: inline-block;margin-left: 140px;    vertical-align: top;
     padding-top: 20px;">
-                        <span class="mobile">曹经理：18017387477  18001751562</span>
+                        <span class="mobile">资深商业保理专家：18017387477  18001751562</span>
                     </div>
                     <div style="display: inline-block;margin-left: 50px;margin-right: 50px">
-                        <img src="{{asset('images/factory.jpg')}}" alt="" style="width: 100px;height: 100px;display: inline-block">
+                        <img src="{{asset('images/factory.jpg')}}" alt=""
+                             style="width: 100px;height: 100px;display: inline-block">
                     </div>
                     <div style="display: inline-block;vertical-align: top;
     padding-top: 20px;">
                         <li style="display: inline-block">
-                            <a style="color: #fff;" target="_blank" href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D" class="online">联系在线客服</a>
+                            <a style="color: #fff;" target="_blank"
+                               href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D"
+                               class="online">联系在线客服</a>
                         </li>
                     </div>
                 </ul>
@@ -717,22 +761,22 @@
     </div>
 
     <!--在线客服-->
-    {{--<aside class="consult">--}}
-        {{--<div class="tit">--}}
-            {{--<div class="img">--}}
-                {{--<img src="{{asset("images/consult_tit.png")}}" alt="在线咨询">--}}
-            {{--</div>--}}
-            {{--<a href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D" style="width: auto;background-color: initial">--}}
-                {{--<h3>在线咨询</h3>--}}
-            {{--</a>--}}
-        {{--</div>--}}
-        {{--<ul>--}}
-            {{--<li>--}}
-                {{--<p style="font-size: 12px;padding: 0px;margin-left: -10px;">021-58690080</p>--}}
-                {{--<p style="font-size: 12px;padding: 0px;margin-left: -10px;">18017387002</p>--}}
-            {{--</li>--}}
-        {{--</ul>--}}
-    {{--</aside>--}}
+{{--<aside class="consult">--}}
+{{--<div class="tit">--}}
+{{--<div class="img">--}}
+{{--<img src="{{asset("images/consult_tit.png")}}" alt="在线咨询">--}}
+{{--</div>--}}
+{{--<a href="http://p.qiao.baidu.com/cps2/chatIndex?reqParam=%7B%22from%22%3A0%2C%22sid%22%3A%22-100%22%2C%22tid%22%3A%22-1%22%2C%22ttype%22%3A1%2C%22siteId%22%3A%2211894228%22%2C%22userId%22%3A%227727567%22%2C%22pageId%22%3A0%7D" style="width: auto;background-color: initial">--}}
+{{--<h3>在线咨询</h3>--}}
+{{--</a>--}}
+{{--</div>--}}
+{{--<ul>--}}
+{{--<li>--}}
+{{--<p style="font-size: 12px;padding: 0px;margin-left: -10px;">021-58690080</p>--}}
+{{--<p style="font-size: 12px;padding: 0px;margin-left: -10px;">18017387002</p>--}}
+{{--</li>--}}
+{{--</ul>--}}
+{{--</aside>--}}
 {!! $webkey->shangqiao !!}
 </body>
 
